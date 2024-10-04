@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+    background-color: #f4f5ff;
+    margin: 0;
+  }
+  
+  .image-container {
+    perspective: 1500px;
+    display: inline-block;
+  }
+  
+  .tilt-image {
+    width: 400px;
+    height: auto;
+    transition: transform 0.2s ease-out;
+    transform-style: preserve-3d;
+  }
+  
+  .image-container:hover .tilt-image {
+    cursor: pointer;
+  }
+  .image-container2 {
+    perspective: 1500px;
+    display: inline-block;
+  }
+  
+  .tilt-image2 {
+    width: 400px;
+    height: auto;
+    transition: transform 0.2s ease-out;
+    transform-style: preserve-3d;
+  }
+  
+  .image-container2:hover .tilt-image2 {
+    cursor: pointer;
+  }
